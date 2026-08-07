@@ -1,0 +1,11 @@
+{
+  "name": "frontend-ai-capstone",
+  "version": "1.0.0",
+  "description": "Frontend AI Engineering Capstone",
+  "scripts": {
+    "start": "npx serve .",
+    "dev": "npx serve ."
+  },
+  "keywords": [],
+  "license": "MIT"
+}
