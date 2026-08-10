@@ -1,61 +1,36 @@
-# Frontend AI Engineering Capstone
-
-A frontend web application built as the capstone project for Frontend AI Engineering. This repository tracks the full development lifecycle—from initial setup through a polished, user-facing experience—using AI-assisted workflows.
-
-## Project Overview
-
-This capstone applies modern frontend fundamentals (HTML, CSS, JavaScript) while practicing AI-assisted development. The goal is to ship a complete frontend project with clean code, meaningful commits, and a README that documents how to run and understand the work.
-
-## Tech Stack
-
-- HTML
-- CSS
-- JavaScript (ES6)
-- Node.js
-
-## Tools & Workflow
-
-- Git — version control and commit history
-- Claude Code — AI-assisted development
-- [Conventional Commits](https://www.conventionalcommits.org/) — structured commit messages
-
-## Learning Objectives
-
-- Practice AI-assisted development from scaffolding to polish
-- Write clean, maintainable ES6 JavaScript
-- Follow Conventional Commits for a clear project history
-- Deliver a complete frontend capstone application
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
 
-### Prerequisites
-
-- [Node.js](https://nodejs.org/) (LTS recommended)
-- A modern web browser
-- Git
-
-### Setup
+First, run the development server:
 
 ```bash
-git clone https://github.com/<your-username>/frontend-ai-capstone.git
-cd frontend-ai-capstone
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
 
-> Run and build instructions will be added as the project structure is finalized (e.g. `npm install`, local dev server, or opening `index.html` directly).
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Project Structure
+You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-```
-frontend-ai-capstone/
-├── README.md       # Project documentation
-├── CLAUDE.md       # AI assistant and coding guidelines
-├── LICENSE         # MIT License
-└── .gitignore
-```
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## License
+## Learn More
 
-This project is licensed under the [MIT License](LICENSE).
-## Project Overview
+To learn more about Next.js, take a look at the following resources:
 
-A [type of app] that helps [users] [do something]. Built as part of the Frontend AI Engineering capstone to practice AI-assisted development with HTML, CSS, and JavaScript.
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
